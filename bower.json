@@ -1,0 +1,30 @@
+{
+  "name": "newton-raphson",
+  "version": "0.0.1",
+  "authors": [
+    "Dave Wasmer <davewasmer@gmail.com>"
+  ],
+  "description": "JavaScript implementation of the Newton-Raphson method for approximating roots of a real-valued function",
+  "main": "index.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "newton-raphson",
+    "math",
+    "numerical",
+    "approximation",
+    "roots"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/davewasmer/newton-raphson",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
