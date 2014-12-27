@@ -13,7 +13,7 @@
     var epsilon = options.epsilon || 0.0000000000001;
     var maxIterations = options.maxIterations || 20;
     var haveWeFoundSolution = false; 
-    var newtonX;
+    var result;
    
     for (var i = 0; i < maxIterations; ++i) {
       var denominator = fprime(guess);
